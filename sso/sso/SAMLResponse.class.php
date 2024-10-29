@@ -43,6 +43,7 @@ class SAMLResponse {
    */
   public static function decode($requestID, $samlResponseEncoded, $consumerServiceUrl, $issuer, $SAMLSchemaPath, $idPCertPath) {
     $samlResponse = base64_decode($samlResponseEncoded);
+    echo $samlResponse;
     
     if (is_null($requestID)) {
       die("SAMLResponse: Missing requestID");

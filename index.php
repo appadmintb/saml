@@ -17,11 +17,11 @@
         
         public $forceAuth = true;
         
-        //public $consumerServiceUrl = 'https://stagingapi.tuboleta.com/index.php/userOnboarding/loginSecutix';
-        //public $issuer = 'SsoTuboleta';
+        public $consumerServiceUrl = 'https://stagingapi.tuboleta.com/index.php/userOnboarding/loginSecutix';
+        public $issuer = 'SsoTuboleta';
         //Test
-        public $consumerServiceUrl = 'http://tuboletaapi.inkubo.co/userOnboarding/loginSecutix';
-        public $issuer = 'SsoTuboR';
+        //public $consumerServiceUrl = 'https://comar-test.pp-shop.secutix.com/';
+        //public $issuer = '634742479';
         //End Test
         public $passPhrase = '';
         public $privKeyPath = 'wild.tuboleta.com-2020-07-31-130631.pkey';
