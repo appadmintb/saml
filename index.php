@@ -17,10 +17,11 @@
         
         public $forceAuth = true;
         
-        public $consumerServiceUrl = 'https://stagingapi.tuboleta.com/index.php/userOnboarding/loginSecutix';
+        //public $consumerServiceUrl = 'https://stagingapi.tuboleta.com/index.php/userOnboarding/loginSecutix';
+        //public $consumerServiceUrl = 'https://wonderful-forest-0b5b6f91e.5.azurestaticapps.net';
         public $issuer = 'SsoTuboleta';
         //Test
-        //public $consumerServiceUrl = 'https://comar-test.pp-shop.secutix.com/';
+        public $consumerServiceUrl = 'https://wonderful-forest-0b5b6f91e.5.azurestaticapps.net/#/login';
         //public $issuer = '634742479';
         //End Test
         public $passPhrase = '';
