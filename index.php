@@ -21,7 +21,8 @@
         //public $consumerServiceUrl = 'https://wonderful-forest-0b5b6f91e.5.azurestaticapps.net';
         public $issuer = 'SsoTuboleta';
         //Test
-        public $consumerServiceUrl = 'https://wonderful-forest-0b5b6f91e.5.azurestaticapps.net/#/saml-response';
+        // public $consumerServiceUrl = 'https://wonderful-forest-0b5b6f91e.5.azurestaticapps.net/#/saml-response';
+        public $consumerServiceUrl = 'http://localhost:45053/Validacion/Index/COMFENALCO/01234567890';
         //public $issuer = '634742479';
         //End Test
         public $passPhrase = '';
