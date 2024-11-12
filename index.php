@@ -19,9 +19,10 @@
         
         //public $consumerServiceUrl = 'https://stagingapi.tuboleta.com/index.php/userOnboarding/loginSecutix';
         //public $consumerServiceUrl = 'https://wonderful-forest-0b5b6f91e.5.azurestaticapps.net';
-        public $issuer = 'SsoTuboleta';
+        // public $issuer = 'SsoTuboleta';
+        public $issuer = 'SsoTuboletaTST';
         //Test
-        public $consumerServiceUrl = 'https://wonderful-forest-0b5b6f91e.5.azurestaticapps.net/#/saml-response';
+        public $consumerServiceUrl = 'https://vet.app-tuboleta.com/AppWeb/Login/Auth';
         //public $issuer = '634742479';
         //End Test
         public $passPhrase = '';
